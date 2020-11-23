@@ -1,7 +1,6 @@
-package com.example.taskbootcamp.view
+package com.example.taskbootcamp.AdvanceRecyclerView.view
 
-import android.content.Context
-import com.example.taskbootcamp.model.UserModel
+import com.example.taskbootcamp.AdvanceRecyclerView.model.UserModel
 
 interface UserView {
     fun onShowLoading()

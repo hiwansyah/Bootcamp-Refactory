@@ -1,4 +1,4 @@
-package com.example.taskbootcamp.network
+package com.example.taskbootcamp.AdvanceRecyclerView.network
 
 import androidx.viewbinding.BuildConfig
 import okhttp3.OkHttpClient

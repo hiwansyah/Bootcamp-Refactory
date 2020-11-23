@@ -1,9 +1,12 @@
-package com.example.taskbootcamp
+package com.example.taskbootcamp.AdvanceRecyclerView.presenter
 
-import com.example.taskbootcamp.model.User
-import com.example.taskbootcamp.network.NetworkProvider
-import com.example.taskbootcamp.network.UserSource
-import com.example.taskbootcamp.view.UserView
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import com.example.taskbootcamp.AdvanceRecyclerView.model.User
+import com.example.taskbootcamp.AdvanceRecyclerView.model.UserModel
+import com.example.taskbootcamp.AdvanceRecyclerView.network.NetworkProvider
+import com.example.taskbootcamp.AdvanceRecyclerView.network.UserSource
+import com.example.taskbootcamp.AdvanceRecyclerView.view.UserView
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
